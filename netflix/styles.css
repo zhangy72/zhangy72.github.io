@@ -1,0 +1,446 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* 
+{
+margin: 0px;
+padding: 0px;
+}
+
+body {
+	background: #000000 url(images/back_all.gif) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+.STYLEX2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #FF0000;
+	word-spacing: normal;
+	border-width:thin;
+	border-spacing:1px;
+	border-style: solid;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-color: #0000FF;
+	border-right-color: #0000FF;
+	border-bottom-color: #0000FF;
+	border-left-color: #0000FF;
+	
+}
+
+
+input, textarea {
+	border: 1px solid #FF0000;
+	color: #FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+h1, h2, h3, p, ol, ul {
+	margin-top: 0;
+}
+
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+
+a {
+	color: #1D74A6;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1D74A6;
+}
+
+
+
+hr {
+	display: none;
+}
+
+#main
+{
+width: 960px;
+margin: 0 auto;
+border-left: 16px solid #ffffff;
+border-right: 16px solid #ffffff;
+background: #ffffff
+}
+
+
+/* Header */
+
+#header {
+	height: 444px;
+	width: 960px;
+
+}
+
+#logo {
+width: 960px;
+height: 368px;
+background: url(images/header.jpg) no-repeat;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	line-height: normal;
+}
+
+#logo h1 {
+	padding: 47px 0 0 20px;
+	font-size: 24px;
+	color: #ffffff;
+}
+#logo h2 {
+	padding: 10px 0 0 20px;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#menu {
+height: 76px;
+background: url(images/menu.gif) repeat-x;
+width: 840px;
+padding-left: 120px;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	float: left;
+	width: 140px;
+	height: 50px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 26px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+
+}
+
+#menu a:hover {
+	background: url(images/menu_r.gif) repeat-x;
+	height: 50px;
+}
+
+/* Page */
+
+#page {
+	width: 949px;
+	margin: 0 auto;
+	background: url(images/page_back.gif) repeat-x;
+	padding-left: 11px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 531px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#content .line1
+{
+border: 1px solid #FE6B02;
+background: #F1F1F1;
+padding: 4px;
+margin-bottom: 10px;
+}
+
+#content .post ul, #content .post ol
+{
+margin-left: 30px;
+}
+
+#content .top
+{
+width: 497px;
+background: url(images/top.png) no-repeat;
+height: 13px;
+}
+
+#content .middle_back
+{
+width: 499px;
+padding: 10px;
+border: 1px solid #000000;
+background: #ffffff
+}
+
+#content .title
+{
+width: 501px;
+background: url(images/content_title.gif) no-repeat;
+height: 28px;
+padding-top: 10px;
+padding-left: 20px;
+margin-bottom: 4px;
+}
+
+#content .date 
+{
+	height: 31px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 3px;
+	font-size: 10px;
+	border: 1px solid #FE6B02;
+    background: #ffffff;		
+}
+
+#content .date ul
+{
+	list-style: none;	
+}
+
+#content .date li
+{
+	display: inline; 
+}
+
+#content .small_icon1
+{
+background: url(images/icon1.gif) no-repeat;
+height: 24px;
+width: 150px;
+float: left;
+display: block;
+text-align: left;
+padding-top: 6px;
+padding-left: 30px;
+}
+
+#content .small_icon2
+{
+background: url(images/icon2.gif) no-repeat;
+height: 24px;
+width: 120px;
+float: left;
+display: block;
+text-align: left;
+padding-top: 6px;
+padding-left: 30px;
+}
+
+#content .small_icon3
+{
+background: url(images/icon3.gif) no-repeat;
+height: 24px;
+width: 100px;
+float: left;
+display: block;
+text-align: left;
+padding-top: 6px;
+padding-left: 30px;
+}
+
+.post {
+	margin-bottom: 15px;
+	color: #000000;
+	margin-top: 10px;
+}
+
+.post a {
+	color: #FE6B02;
+}
+
+.post a:hover {
+	color: #FE6B02;
+}
+
+.post H2
+{
+color: #000000;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold
+}
+
+/* Sidebars */
+
+.sidebar {
+	float: left;
+	width: 193px;
+	margin-top: 10px;
+	color: #000000;
+
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+
+.sidebar li {
+	padding: 4px 0 4px 10px;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: #FE6B02;
+	font-size: 16px;
+}
+.sidebar a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.sidebar h2 {
+	padding-top: 12px;
+	color: #000000;
+	background: url(images/title.gif) no-repeat;
+	height: 26px;
+	padding-left: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.bottom_small
+{
+height: 2px;
+background: url(images/small_bottom.gif) no-repeat;
+width: 183px;
+}
+
+
+#leftbar .line1, #rightbar .line1
+{
+border: 1px solid #FE6B02;
+background: #F1F1F1;
+padding: 4px;
+margin-bottom: 10px;
+}
+
+#leftbar .small_back, #rightbar .small_back
+{
+background: url(images/small_back.gif) repeat-y;
+}
+
+/* Left Sidebar */
+
+#leftbar {
+
+}
+
+/* Right Sidebar */
+
+#rightbar {
+margin-left: 5px;
+}
+
+#leftbar .back, #rightbar .back
+{
+background: url(images/title_back.gif) no-repeat;
+padding: 10px;
+}
+
+
+/* Calendar */
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #696969;
+	border: 1px solid #ff0000;
+	font-weight: bold;
+	color: #ffffff
+}
+
+
+/* Footer */
+
+#footer {
+	clear: both;
+	padding-top: 20px;
+	height: 42px;
+	background: url(images/footer.gif) repeat-x;
+}
+
+#footer p {
+	text-align: center;
+	font-size: smaller;
+	color: #666666;
+}
+.
+#footer a {
+	color: #666666;
+}
+.STYLEX {
+	color: #0000FF;
+	font-size: 16px;
+}
+.STYLEXXX
+ {
+	color: #FF0000;
+	font-size: 14px;
+}

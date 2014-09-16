@@ -1,0 +1,98 @@
+#two-divs {
+	float:left;
+	clear:both;
+	width:100%;
+}
+
+#left-div {
+	float:left;
+	width:50%
+}
+
+.form {
+  border:0;
+  border-style;hidden;
+}
+
+.button-cell {
+  border:0;
+}
+
+#right-div {
+	float:right;
+	width:50%;
+}
+
+#output-table {
+	width:100%;
+}
+
+#output-table {
+	border-collapse: separate;
+}
+
+th {
+	border-width: 1px;
+	padding: 3px;
+	border-style:insert;
+	border-color: gray;
+	background-color: white;
+	font-size:20px;
+	font-weight:bold;
+}
+
+td {
+	border-width: 1px;
+	width:10px;
+	padding-bottom:3px;
+	padding-top:3px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+}
+
+caption {
+	font-weight:bold;
+	font-size:24px;
+	text-align:center;
+	color:black;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+#add-row-button {
+	cursor:pointer;
+}
+
+#submit-button {
+	margin:10px 10px 10px 150px;
+	font:16px Arial, Helvetica, sans-serif bold;
+}
+
+#clear-button {
+	margin:10px 10px 10px 20px;
+	font:16px Arial, Helvetica, sans-serif bold;
+}
+
+#help-button {
+	margin:10px 20px;
+	font:16px Arial, Helvetica, sans-serif bold;
+}
+
+.head {
+  text-align:center;
+  font-weight:bold;
+  font-size:16px;
+  color:black;
+}
+
+.footer {
+	background-color:#999999;
+	color:#333333;
+	text-align:center;
+	height:40px;
+	width:100%;
+	clear:both;
+	font-size:14pt;
+	padding-top:20px;
+}

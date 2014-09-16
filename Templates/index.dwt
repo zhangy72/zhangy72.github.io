@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Yuan Zhang's Personal Wesbite</title>
+<!-- TemplateEndEditable -->
+<link href="../css/template.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.STYLE1 {font-size: 35px}
+-->
+</style>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="header" style="font-size:35px">Welcome to Yuan Zhang's Homepage</div>
+<div id="leftnav">
+	<ul>
+	<li><a href="../index.html" title="Homepage" target="_self">Home</a></li>
+	<li><a href="../research.html" title="Research" target="_self">Research</a></li>
+	<li><a href="../course.html" title="Course" target="_self">Course</a><a href="course.html"></a></li>
+	<li><a href="../contact.html" title="Contact" target="_self">Contact</a></li>
+	</ul>
+</div>
+<div id="content"><!-- TemplateBeginEditable name="main" -->main<!-- TemplateEndEditable --></div>
+<div id="footer">
+Copyright &copy; 2011 Yuan Zhang. All Rights Reserved.
+</div>
+</body>
+</html>

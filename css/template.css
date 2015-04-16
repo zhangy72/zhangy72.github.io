@@ -46,6 +46,11 @@ html, body {
 	margin-top:10px;
 }
 
+#service li {
+	font-size:12pt;
+	margin-bottom:10px;
+	margin-top:10px;
+}
 
 #leftnav li {
 	margin-bottom:10px;
@@ -81,6 +86,11 @@ a:hover {
 }
 
 .list-title {
+	font-weight:bolder;
+	font-size:18px;
+}
+
+.list-big-title {
 	font-weight:bolder;
 	font-size:20px;
 }
